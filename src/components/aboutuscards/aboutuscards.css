@@ -1,0 +1,29 @@
+.about-us-card {
+    background-color: var(--uofa_green);
+    width: 40%;
+    min-height: 350px;
+    border-radius: 10px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column; /* Ensures elements stack vertically */
+    align-items: center; /* Centers content horizontally */
+    box-shadow: 5px 5px hwb(0 0% 100% / 0.5);
+    padding: 2rem; /* Adds some spacing */
+}
+
+.about-us-card img {
+    width: 20vh;
+    height: 20vh;
+}
+
+.about-us-card h3 {
+    color: var(--uofa_yellow);
+    font-size: 2rem; /* Increase header size */
+    margin-bottom: 0.5rem; /* Adds space below the header */
+}
+
+.about-us-card p {
+    color: var(--uofa_grey);
+    font-size: 1.5rem; /* Increase header size */
+    margin-top: 0.5rem; /* Adds space above the paragraph */
+}

@@ -1,0 +1,90 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 80px; 
+    padding: 20px 5%;
+    background-color: var(--uofa_green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 35px;
+    color: var(--uofa_grey);
+    font-weight: 700;
+    display: flex;
+    align-items: center; 
+}
+  
+.logo img {
+    margin-top: 10px;
+    width: 70px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.nav-social-container {
+    display: flex;
+    align-items: center; /* Align nav and social icons horizontally */
+    gap: 40px; /* Adjust gap between nav and social icons */
+}
+
+.nav_links a {
+    position: relative;
+    font-size: 24px;
+    color: var(--uofa_grey);
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.nav_links a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--uofa_yellow);
+    transition: 0.3s;
+}
+
+.nav_links a:hover::before {
+    width: 100%;
+}
+
+
+/* CONTACT US */
+.social-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.discord {
+    background-color: #5865F2; /* Discord brand color */
+}
+
+.instagram {
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF); /* Instagram gradient */
+}
+
+.social-btn:hover {
+    transform: scale(1.1);
+}
+
