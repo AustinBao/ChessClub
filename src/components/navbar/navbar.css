@@ -13,7 +13,7 @@
 }
 
 .logo {
-    font-size: 35px;
+    font-size: 30px;
     color: var(--uofa_grey);
     font-weight: 700;
     display: flex;
@@ -35,7 +35,7 @@
 
 .nav_links a {
     position: relative;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--uofa_grey);
     font-weight: 500;
     margin-left: 40px;

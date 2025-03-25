@@ -7,7 +7,7 @@ const Executives = () => {
     <div class="main-content">
 
       <div class="title">
-          <h1>Meet the Executive Team</h1>
+          Meet the Executive Team
       </div>
 
       <div class="card-container">
@@ -60,11 +60,7 @@ const Executives = () => {
             altimage="CO-VP EVENTS"
           />
       </div>
-
-      <div class="title">
-          <h1>Elections & Eligibility</h1>
-      </div>
-
+      
   </div>
   )    
 };

@@ -5,7 +5,15 @@ import GalleryCarousel from "../../components/gallerycarousel/gallerycarousel";
 const Home = () => {
   return (
     <div class="main-content">
-       <GalleryCarousel />;
+
+      <div class="title">
+        Welcome to the University of Alberta Chess Club
+      </div>
+
+      <img class="homelogo" src="./src/imgs/UACC.svg" alt="Logo"/>
+
+      <GalleryCarousel />;
+    
     </div>
   );
 };

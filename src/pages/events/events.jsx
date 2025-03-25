@@ -2,7 +2,13 @@ import React from "react";
 import "./events.css";
 
 const Events = () => {
-  return <h1>Events Page</h1>;
+  return (
+    <div class="main-content">
+      <div class="title">
+        Hello this is the events page
+      </div>
+    </div>
+  )
 };
 
 export default Events;

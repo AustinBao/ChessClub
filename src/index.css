@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;700&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap');
+
+
 :root {
   --uofa_green: #275D38;
   --uofa_yellow: #FECB00;
@@ -31,4 +35,23 @@ a {
   flex-direction: column; /* Stack elements vertically */
   padding-top: 150px; 
   overflow: hidden; /* Prevents horizontal scrollbar */
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+  color: var(--uofa_grey);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.title:hover {
+  color: var(--uofa_yellow); 
+  transform: scale(1.05); /* Slight zoom effect */
 }
