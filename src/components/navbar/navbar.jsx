@@ -5,17 +5,19 @@ import { FaDiscord, FaInstagram } from "react-icons/fa"; // Import icons
 
 const Navbar = () => {
     return (
-        <header className="header">
-            <Link to="/" className="logo"> 
+        <header class="header">
+            <Link to="/" class="logo"> 
                 <span>
-                    <img src="./src/imgs/UACC.svg" alt="Logo"/>
+                    <img src="./src/imgs/yellowUACC.svg" alt="Logo"/>
                 </span> 
-                University of Alberta Chess Club
+                
+                <span class="yellowtitle">University of Alberta Chess Club</span>
+                
             </Link>
             <div className="nav-social-container">
                 <nav className="nav_links">
                     <Link to="/">Home</Link>
-                    <Link to="/events">Events</Link>
+                    <Link to="/join">Join</Link>
                     <Link to="/about">About</Link>
                     <Link to="/executives">Executives</Link>            
                 </nav>

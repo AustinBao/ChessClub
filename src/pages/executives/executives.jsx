@@ -6,11 +6,11 @@ const Executives = () => {
   return (
     <div class="main-content">
 
-      <div class="title">
+      <div class="title chesstext">
           Meet the Executive Team
       </div>
 
-      <div class="card-container">
+      <div class="exec-container">
           <PositionCard 
             name="Benjamin Pan"
             role="PRESIDENT"
@@ -23,7 +23,7 @@ const Executives = () => {
             role="VICE PRESIDENT"
             image="./src/imgs/ChessPieces/Chess_qlt45.svg"
             altimage="VICE PRESIDENT"
-          />
+          /> 
 
           <PositionCard 
             name="Tony Hu"

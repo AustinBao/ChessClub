@@ -1,10 +1,8 @@
 
-.card-container {
+.exec-container {
     display: flex;
     flex-wrap: wrap; /* Allows items to wrap into new rows */
     justify-content: center; 
-    gap: 2rem; /* Space between cards */
-    margin-bottom: 5rem;
 }
 
 

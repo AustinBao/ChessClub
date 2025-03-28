@@ -1,5 +1,5 @@
 .card {
-    width: 210px;
+    width: 250px;
     height: 280px;
     position: relative;
     border-radius: 16px;
@@ -7,12 +7,14 @@
     transition: box-shadow .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     overflow: hidden;
     cursor: pointer;
+    margin: 3rem;  /* Adjust spacing between cards */
+    padding: 10px;
     transition: all 0.3s ease-in-out;
 }
 
 .favpiece {
     color: #222;
-    font-size: 12px;
+    font-size: 0.9rem;
     margin-top: 3px;
     margin-left: 15px;
     font-weight: 700;
@@ -26,7 +28,7 @@
 .card-img {
     display: block;
     margin: auto; 
-    width: 90%;
+    width: 70%;
 }
   
 .card-info {
@@ -46,14 +48,14 @@
   
 .card-title {
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #222;
 }
   
 .card-subtitle {
     color: #333;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
   
 .card:hover {

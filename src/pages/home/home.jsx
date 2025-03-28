@@ -6,11 +6,17 @@ const Home = () => {
   return (
     <div class="main-content">
 
-      <div class="title">
-        Welcome to the University of Alberta Chess Club
+      <div class="hometitle">
+        Welcome to the University of Alberta 
       </div>
 
-      <img class="homelogo" src="./src/imgs/UACC.svg" alt="Logo"/>
+      <div class="homesubtitle chesstext">
+        Chess Club 
+      </div>
+
+      <a href="/join" class="joinbutton">
+        <span>Join Now</span>
+      </a>
 
       <GalleryCarousel />;
     

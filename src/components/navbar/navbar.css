@@ -12,6 +12,11 @@
     z-index: 1000;
 }
 
+.yellowtitle{
+    color: var(--uofa_yellow);
+    font-size: 2.5rem;
+}
+
 .logo {
     font-size: 30px;
     color: var(--uofa_grey);
@@ -29,16 +34,16 @@
 
 .nav-social-container {
     display: flex;
-    align-items: center; /* Align nav and social icons horizontally */
-    gap: 40px; /* Adjust gap between nav and social icons */
+    align-items: center; 
+    gap: 3rem; /* Adjust gap between nav and social icons */
 }
 
 .nav_links a {
     position: relative;
-    font-size: 20px;
+    font-size: 22px;
     color: var(--uofa_grey);
     font-weight: 500;
-    margin-left: 40px;
+    margin-left: 3rem;
 }
 
 .nav_links a::before {
@@ -60,7 +65,7 @@
 /* CONTACT US */
 .social-icons {
     display: flex;
-    gap: 30px;
+    gap: 3rem;
 }
 
 .social-btn {

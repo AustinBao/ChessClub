@@ -1,3 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Poppins:wght@400;500;700&family=Tektur:wght@400..900&display=swap');
+
 .homelogo {
     max-width: 20%;
 }
+
+.highlighttext {
+    color: var(--uofa_yellow);
+}
+
+.hometitle {
+    font-family: 'Tektur', sans-serif;
+    font-size: 3rem;
+    color: var(--uofa_grey);
+    font-weight: 600;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 2rem;
+}
+
+.homesubtitle {
+    margin-bottom: 6rem;
+    font-size: 11rem;
+}
+
+
+.joinbutton {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, var(--uofa_yellow), var(--uofa_grey), var(--uofa_green));
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    font-size: 2em;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 6rem;
+}
+  
+.joinbutton span {
+    position: relative;
+    z-index: 1;
+    margin: 4rem;
+}
+
+.joinbutton::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: var(--uofa_green);
+    border-radius: 14px;
+    transition: 0.5s;
+}
+  
+.joinbutton:hover::before {
+    opacity: 0.7;
+}
+  
+.joinbutton::after {
+    content: "";
+    position: absolute;
+    inset: 0px;
+    background: linear-gradient(45deg, var(--uofa_yellow), var(--uofa_green), var(--uofa_green));
+    border-radius: 9px;
+    transition: 0.5s;
+    opacity: 0;
+    filter: blur(20px);
+}
+  
+.joinbutton:hover:after {
+    opacity: 1;
+}
+  
