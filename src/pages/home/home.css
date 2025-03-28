@@ -24,12 +24,11 @@
     font-size: 11rem;
 }
 
-
 .joinbutton {
     position: relative;
     text-decoration: none;
     color: #fff;
-    background: linear-gradient(45deg, var(--uofa_yellow), var(--uofa_grey), var(--uofa_green));
+    background: linear-gradient(45deg, var(--uofa_green), var(--uofa_yellow), var(--uofa_green));
     padding: 2rem 3rem;
     border-radius: 16px;
     font-size: 2em;
@@ -61,11 +60,11 @@
     content: "";
     position: absolute;
     inset: 0px;
-    background: linear-gradient(45deg, var(--uofa_yellow), var(--uofa_green), var(--uofa_green));
+    background: linear-gradient(45deg, var(--uofa_yellow),var(--uofa_yellow), var(--uofa_yellow));
     border-radius: 9px;
     transition: 0.5s;
     opacity: 0;
-    filter: blur(20px);
+    filter: blur(3px);
 }
   
 .joinbutton:hover:after {

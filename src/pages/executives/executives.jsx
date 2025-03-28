@@ -14,49 +14,56 @@ const Executives = () => {
           <PositionCard 
             name="Benjamin Pan"
             role="PRESIDENT"
-            image="./src/imgs/ChessPieces/Chess_klt45.svg"
+            image="./src/imgs/exec/pres.png"
             altimage="PRESIDENT"
           />
 
           <PositionCard 
             name="Saswat Sahoo"
             role="VICE PRESIDENT"
-            image="./src/imgs/ChessPieces/Chess_qlt45.svg"
+            image="./src/imgs/exec/vicepres.png"
             altimage="VICE PRESIDENT"
           /> 
 
           <PositionCard 
             name="Tony Hu"
             role="VP EXTERNAL"
-            image="./src/imgs/ChessPieces/Chess_rlt45.svg"
+            image="./src/imgs/exec/vpexternal.png"
             altimage="VP EXTERNAL"
           />
 
           <PositionCard 
             name="Pranit Das"
             role="VP INTERNAL"
-            image="./src/imgs/ChessPieces/Chess_blt45.svg"
+            image="./src/imgs/exec/vpinternal.png"
             altimage="VP INTERNAL"
           />
 
           <PositionCard 
             name="Scott Brown"
             role="COMMUNICATIONS"
-            image="./src/imgs/ChessPieces/Chess_nlt45.svg"
+            image="./src/imgs/exec/vpcom.png"
             altimage="VP COMMUNICATIONS"
+          />
+
+          <PositionCard 
+            name="Robert Gibson"
+            role="FINANCE"
+            image="./src/imgs/exec/vpfinance.png"
+            altimage="CO-VP EVENTS"
           />
 
           <PositionCard 
             name="Lavanya Jain"
             role="CO-VP EVENTS"
-            image="./src/imgs/ChessPieces/Chess_plt45.svg"
+            image="./src/imgs/exec/vpevents.png"
             altimage="CO-VP EVENTS"
           />
 
           <PositionCard 
             name="Andi Superceanu"
             role="CO-VP EVENTS"
-            image="./src/imgs/ChessPieces/Chess_plt45.svg"
+            image="./src/imgs/exec/vpevents2.png"
             altimage="CO-VP EVENTS"
           />
       </div>

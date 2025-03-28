@@ -8,22 +8,35 @@
     flex-direction: column; /* Ensures elements stack vertically */
     align-items: center; /* Centers content horizontally */
     box-shadow: 5px 5px hwb(0 0% 100% / 0.5);
-    padding: 2rem; /* Adds some spacing */
+    padding: 2rem; 
+    position: relative; 
 }
 
-.about-us-card img {
-    width: 20vh;
-    height: 20vh;
+.about-us-card::before {
+    content: "";
+    position: absolute;
+    inset: -2px; 
+    background: var(--uofa_yellow);
+    border-radius: 12px; 
+    transition: 0.5s;
+    z-index: -10; 
+}
+
+.about-us-card:hover::before {
+    opacity: 0.7;
 }
 
 .about-us-card h3 {
+    font-family: Roboto Slab;
+    font-weight: 500;
     color: var(--uofa_yellow);
-    font-size: 2rem; /* Increase header size */
-    margin-bottom: 0.5rem; /* Adds space below the header */
+    font-size: 2rem;
 }
 
 .about-us-card p {
+    font-family: Roboto Flex;
+    font-weight: 400;
     color: var(--uofa_grey);
-    font-size: 1.5rem; /* Increase header size */
-    margin-top: 0.5rem; /* Adds space above the paragraph */
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
 }

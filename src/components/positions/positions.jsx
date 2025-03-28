@@ -4,8 +4,6 @@ import "./positions.css";
 const PositionCard = ({ name, role, image, altimage }) => {
     return (
         <div class="card">
-            <p class="favpiece">Favourite piece:</p>
-
             <img src={image} alt={altimage} class="card-img"/>
             
             <div class="card-info">

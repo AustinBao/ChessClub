@@ -1,3 +1,4 @@
+
 .header {
     position: fixed;
     top: 0;
@@ -13,6 +14,8 @@
 }
 
 .yellowtitle{
+    font-family: Roboto Slab;
+    font-weight: 500;
     color: var(--uofa_yellow);
     font-size: 2.5rem;
 }
