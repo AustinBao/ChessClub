@@ -34,7 +34,7 @@ a {
 
 .main-content {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column; 
   padding-top: 150px; 
   overflow: hidden; /* Prevents horizontal scrollbar */
   justify-content: center;
