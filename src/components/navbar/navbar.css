@@ -4,8 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 80px; 
-    padding: 20px 5%;
+    padding: 20px 6%;
     background-color: var(--uofa_green);
     display: flex;
     justify-content: space-between;
@@ -53,17 +52,18 @@
     content: '';
     position: absolute;
     top: 100%;
-    left: 0;
-    width: 0;
+    left: 10%; /* Start 10% from left */
+    width: 80%; /* Only 80% width */
     height: 2px;
     background: var(--uofa_yellow);
-    transition: 0.3s;
+    transform: scaleX(0); /* Start with no width */
+    transform-origin: center;
+    transition: transform 0.3s;
 }
 
 .nav_links a:hover::before {
-    width: 100%;
+    transform: scaleX(1); /* Grow to full 80% width */
 }
-
 
 /* CONTACT US */
 .social-icons {
@@ -85,14 +85,131 @@
 }
 
 .discord {
-    background-color: #5865F2; /* Discord brand color */
+    background-color: #5865F2; 
 }
 
 .instagram {
-    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF); /* Instagram gradient */
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF); 
 }
 
 .social-btn:hover {
     transform: scale(1.1);
 }
 
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--uofa_grey);
+    font-size: 1.8rem;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+
+@media (max-width: 1400px) {
+    .header { 
+        position: fixed;  /* Header stays fixed at top */
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+        position: absolute; 
+        right: 6%; 
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* Dropdown menu container */
+    .nav-social-container {
+        position: absolute;
+        top: 100%; /* Start right below the navbar */
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        background-color: var(--uofa_green);
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        max-height: 0; /* Start collapsed */
+        overflow: hidden; 
+        transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+        z-index: 999; 
+        box-shadow: 0 10px 15px rgba(254, 203, 0,0.8); /* Shadow effect */
+    }
+
+    .nav-social-container.active {
+        max-height: 500px; 
+        padding: 1rem 0 2rem 0; 
+    }
+
+    /* Rest of your mobile styles remain the same */
+    .nav_links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .nav_links a {
+        margin: 0;
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+        padding: 0.8rem 0;
+        position: relative;
+    }
+
+    .nav_links a:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        width: 80%;
+        height: 1px;
+        background: rgba(255,255,255,0.2);
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .social-btn {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 660px) {
+    .logo img {
+        width: 40px;
+        margin-right: 10px;
+    }
+
+    .yellowtitle {
+        font-size: 1.1rem;
+    }
+
+    .nav_links a {
+        font-size: 1.3rem;
+        padding: 0.7rem 0;
+    }
+
+    .social-icons {
+        gap: 1.5rem;
+    }
+}
