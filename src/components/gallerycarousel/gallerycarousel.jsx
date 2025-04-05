@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import "./GalleryCarousel.css";
+import "./gallerycarousel.css";
 import img1 from "../../imgs/Gallery/1.jpg";
 import img2 from "../../imgs/Gallery/2.jpg";
 import img3 from "../../imgs/Gallery/3.jpg";
