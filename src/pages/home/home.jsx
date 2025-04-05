@@ -6,20 +6,24 @@ const Home = () => {
   return (
     <div class="main-content">
 
-      <div class="hometitle">
-        Welcome to the University of Alberta 
-      </div>
+      <div className="fade-overlay fade-left"></div>
 
-      <div class="homesubtitle chesstext">
-        Chess Club 
-      </div>
+        <div class="hometitle">
+          Welcome to the University of Alberta 
+        </div>
 
-      <a href="/join" class="joinbutton">
-        <span>Join Now</span>
-      </a>
+        <div class="homesubtitle chesstext">
+          Chess Club 
+        </div>
 
-      <GalleryCarousel />;
-    
+        <a href="/join" class="joinbutton">
+          <span>Join Now</span>
+        </a>
+
+        <GalleryCarousel />;
+        
+      <div className="fade-overlay fade-right"></div>
+
     </div>
   );
 };

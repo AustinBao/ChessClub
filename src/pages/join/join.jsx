@@ -16,13 +16,18 @@ const Join = () => {
             <div class="jointitle">1. Membership Fee</div>
               <div class="joinbody">
                 <br />
-                New members have up to two free meetings before deciding to officially become a member 
+                New members have up to <span> two free </span> meetings before deciding to officially become a member. Club memberships last for the entirety of the academic year, being renewed annually. 
                 <br />
                 <br />
-                Club memberships last for the entirety of the academic year, being renewed annually
+                <br />
+                <span>General Membership Fee:</span> &nbsp; $10
+                <li>for all students interested in the club.</li>
+                <br />
+                <span>Executive Membership Fee:</span> &nbsp; $15 
+                <li>for those holding an Executive position in the club.</li>
                 <br />
                 <br />
-                Club fees can be paid via cash or e-transfer <span>ualbertachessclub@gmail.com</span>
+                Club fees can be paid via cash or e-transfer at: <span>ualbertachessclub@gmail.com</span>
               </div>
           </div>
         </div>
@@ -45,13 +50,16 @@ const Join = () => {
             <div class="jointitle">3. Play Chess!</div>
             <div class="joinbody">
               <br />
-              Check out our discord for events and tournaments
+              Check out our discord for updates on events, tournaments (online and in-person), and to meet other members!
+              <br />
+              <br />
+              Also follow our instagram to stay connected and see whats happening in the club!
             </div>
           </div>
         </div>
 
       </div>
-    
+
     </div>
   )
 };

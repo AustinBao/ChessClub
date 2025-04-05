@@ -26,7 +26,6 @@ const GalleryCarousel = () => {
 
   return (
     <div className="gallery-container">
-      <div className="fade-overlay fade-left"></div>
       <AnimatePresence mode="wait">
         <motion.img
           key={currentIndex}
@@ -39,7 +38,6 @@ const GalleryCarousel = () => {
           transition={{ duration: 0.8 }}
         />
       </AnimatePresence>
-      <div className="fade-overlay fade-right"></div>
     </div>
   );
 };

@@ -6,7 +6,7 @@ const AboutUsCard = ({header, description}) => {
         <div class='about-us-card'>
             <h3>{header}</h3>
             <p>{description}</p>
-        </div>
+        </div> 
     );
 }
 export default AboutUsCard
