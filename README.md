@@ -1,12 +1,15 @@
-# React + Vite
+# University of Alberta Chess Club Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official website of the University of Alberta Chess Club (UACC)!
 
-Currently, two official plugins are available:
+Learn how to join the club, read about who we are, meet the executive team, and stay updated with the latest club news.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Website Links
 
-## Expanding the ESLint configuration
+- [Old Website (Wix)](https://ualbertachessclub.wixsite.com/uacc) – Legacy version built with Wix  
+- [New Website (GitHub)](https://github.com/vitejs/vite-plugin-react-swc) – Rebuilt using modern web technologies
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- [React](https://react.dev/) – Frontend library for building interactive UIs  
+- [UIverse](https://uiverse.io/) – Pre-built modern UI components

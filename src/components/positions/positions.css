@@ -12,14 +12,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-.favpiece {
-    color: #222;
-    font-size: 0.9rem;
-    margin-top: 3px;
-    margin-left: 15px;
-    font-weight: 700;
-}
-
 .card:hover {
     background: var(--uofa_yellow);
     transform: scale(1.1); /* Slight zoom effect */

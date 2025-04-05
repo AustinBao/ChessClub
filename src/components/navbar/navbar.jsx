@@ -8,7 +8,7 @@ const Navbar = () => {
         <header class="header">
             <Link to="/" class="logo"> 
                 <span>
-                    <img src="./src/imgs/yellowUACC.svg" alt="Logo"/>
+                    <img src="/yellowUACC.svg" alt="Logo"/>
                 </span> 
                 
                 <span class="yellowtitle">University of Alberta Chess Club</span>
@@ -23,7 +23,7 @@ const Navbar = () => {
                 </nav>
 
                 <div className="social-icons">
-                    <a href="https://discord.gg/yxjc4xX7" target="_blank" rel="noopener noreferrer" className="social-btn discord">
+                    <a href="https://discord.gg/mUTGxFjWnm" target="_blank" rel="noopener noreferrer" className="social-btn discord">
                         <FaDiscord />
                     </a>
                     <a href="https://www.instagram.com/uofachess/" target="_blank" rel="noopener noreferrer" className="social-btn instagram">
