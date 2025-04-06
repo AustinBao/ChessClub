@@ -7,6 +7,7 @@ const Home = () => {
     <div class="main-content">
 
       <div className="fade-overlay fade-left"></div>
+      <div className="fade-overlay fade-right"></div>
 
         <div class="hometitle">
           Welcome to the University of Alberta 
@@ -22,8 +23,6 @@ const Home = () => {
 
         <GalleryCarousel />;
         
-      <div className="fade-overlay fade-right"></div>
-
     </div>
   );
 };

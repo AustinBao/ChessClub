@@ -8,7 +8,7 @@ const Executives = () => {
     <div class="main-content">
 
       <div class="title chesstext">
-          Meet the Executive Team
+          Executive Team
       </div>
 
       <div class="exec-container">
