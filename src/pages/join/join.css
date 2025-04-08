@@ -75,3 +75,95 @@
 .joinbody span {
     color: var(--uofa_yellow);    
 }
+
+
+@media (max-width: 1135px) {
+    .grid-container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .joincards {
+        padding: 15px; 
+    }
+    
+    .jointitle {
+        font-size: 1.45rem; 
+        padding: 0.5rem 0.25rem 0.3rem 1rem;
+    }
+    
+    .joinbody {
+        font-size: 1.1rem; 
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 860px) {
+    .grid-container {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    
+    .joincards {
+        padding: 5px; 
+    }
+    
+    .jointitle {
+        font-size: 1.3rem; 
+        padding: 0.5rem 0.25rem 0.3rem 1rem;
+    }
+    
+    .joinbody {
+        font-size: 1rem; 
+        padding: 0 1rem;
+    }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto; /* Three rows for stacked layout */
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .item1, .item2, .item3 {
+        grid-column: 1;
+    }
+    
+    .item3 {
+        grid-row: auto; /* Reset grid row span */
+    }
+    
+    .joincards {
+        padding: 15px; /* Reduce padding further */
+    }
+    
+    .jointitle {
+        font-size: 1.4rem; /* Smaller font size */
+        padding: 0.5rem 0.25rem 0.3rem 1rem;
+    }
+    
+    .joinbody {
+        font-size: 1.1rem; /* Smaller font size */
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .jointitle {
+        font-size: 1.2rem;
+        padding: 0.4rem 0.2rem 0.2rem 0.8rem;
+    }
+    
+    .joinbody {
+        font-size: 1rem;
+        padding: 0 0.8rem;
+    }
+    
+    .joincards {
+        padding: 10px;
+    }
+}
