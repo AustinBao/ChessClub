@@ -6,10 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp dist/index.html dist/404.html",
+    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "vercel-build": "npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.5.0",
@@ -22,7 +21,6 @@
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
-    "@vercel/static-build": "^2.7.6",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
