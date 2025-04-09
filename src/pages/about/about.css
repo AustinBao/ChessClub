@@ -13,7 +13,7 @@
     isolation: isolate;
     position: relative;
     width: 90%;
-    max-width: 900px;
+    max-width: 1000px;
     padding: 1rem;
     height: auto;
     margin-bottom: 1.4rem;
@@ -52,7 +52,7 @@
 .notititle {
     font-family: Roboto Slab;
     color: var(--uofa_yellow);
-    padding: 0.25rem 1.25rem 0.4rem 1.25rem; /* Removed top padding (was 0.65rem) */
+    padding: 0.25rem 1.25rem 0.4rem 1.25rem; 
     font-weight: 500;
     font-size: 1.3rem;
     margin-top: 0;
