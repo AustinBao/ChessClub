@@ -23,7 +23,7 @@ const Join = () => {
                 <span>General Membership Fee:</span> &nbsp; $10
                 <li>for all students interested in the club.</li>
                 <br />
-                <span>Executive Membership Fee:</span> &nbsp; $15 
+                <span>Exec. Membership Fee:</span> &nbsp; $15 
                 <li>for those holding an Executive position in the club.</li>
                 <br />
                 <br />
