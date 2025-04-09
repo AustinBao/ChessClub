@@ -3,7 +3,8 @@
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
-    gap: 4rem; /* Space between cards */
+    gap: 3rem; /* Space between cards */
+    margin-bottom: 3rem;
 }
 
 .notification {
@@ -11,14 +12,16 @@
     flex-direction: column;
     isolation: isolate;
     position: relative;
-    width: 70%;
-    height: 8rem;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto 1.4rem;
     margin-bottom: 1.4rem;
     background: var(--uofa_green);
     border-radius: 1rem;
     overflow: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     --gradient: linear-gradient(to bottom, var(--uofa_yellow), var(--uofa_grey), var(--uofa_green));
     box-shadow: 5px 5px hwb(0 0% 100% / 0.5);
 }
@@ -50,9 +53,10 @@
 .notititle {
     font-family: Roboto Slab;
     color: var(--uofa_yellow);
-    padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+    padding: 0 0.25rem 0.7rem 1.25rem; /* Removed top padding (was 0.65rem) */
     font-weight: 500;
     font-size: 1.7rem;
+    margin-top: 0;
     transition: transform 300ms ease;
     z-index: 5;
 }
@@ -110,4 +114,32 @@
     text-align: center;
     font-size: 0.9rem;
     width: 75%;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .card-container {
+      gap: 4rem;
+    }
+    
+    .about-us-card {
+      width: calc(50% - 2rem);
+      min-height: 350px;
+      padding: 2rem;
+    }
+    
+    .notification {
+      width: 90%;
+      padding: 1.5rem;
+    }
+  }
+  
+@media (min-width: 1024px) {
+    .about-us-card {
+      width: calc(50% - 3rem);
+    }
+    
+    .notification {
+      width: 80%;
+    }
 }

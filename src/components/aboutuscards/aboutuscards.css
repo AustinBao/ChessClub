@@ -1,14 +1,16 @@
 .about-us-card {
     background-color: var(--uofa_green);
-    width: 40%;
-    min-height: 350px;
+    width: 100%;
+    max-width: 500px;
+    min-height: 300px;
     border-radius: 10px;
     text-align: center; 
     display: flex;
     flex-direction: column; /* Ensures elements stack vertically */
     align-items: center; /* Centers content horizontally */
-    padding: 2rem; 
-    position: relative; 
+    padding: 1.5rem;
+    position: relative;
+    margin: 0 auto;
 }
 
 .about-us-card::before {
@@ -38,4 +40,38 @@
     color: var(--uofa_grey);
     font-size: 1.8rem;
     margin-top: 1.5rem;
+}
+
+.notititle {
+    font-size: 1.4rem;
+}
+  
+.notibody {
+    font-size: 1.1rem;
+}
+  
+.about-us-card h3 {
+    font-size: 1.6rem;
+}
+  
+.about-us-card p {
+    font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+    .notititle {
+        font-size: 1.7rem;
+    }
+
+    .notibody {
+        font-size: 1.3rem;
+    }
+
+    .about-us-card h3 {
+        font-size: 2rem;
+    }
+
+    .about-us-card p {
+        font-size: 1.8rem;
+    }
 }
