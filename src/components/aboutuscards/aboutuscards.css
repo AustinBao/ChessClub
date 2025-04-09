@@ -1,8 +1,8 @@
 .about-us-card {
     background-color: var(--uofa_green);
-    width: 100%;
+    width: 90%;
     max-width: 500px;
-    min-height: 300px;
+    min-height: 250px;
     border-radius: 10px;
     text-align: center; 
     display: flex;
@@ -31,15 +31,16 @@
     font-family: Roboto Slab;
     font-weight: 500;
     color: var(--uofa_yellow);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .about-us-card p {
     font-family: Roboto Flex;
     font-weight: 400;
     color: var(--uofa_grey);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
+    padding: 0 1rem; /* Added horizontal padding */
 }
 
 .notititle {
@@ -58,7 +59,7 @@
     font-size: 1.3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1064px) {
     .notititle {
         font-size: 1.7rem;
     }
