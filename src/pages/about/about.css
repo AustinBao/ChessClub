@@ -1,7 +1,7 @@
 
 .card-container {
-    display: flex;
-    flex-wrap: wrap; 
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: center; 
     gap: 3rem; /* Space between cards */
     margin-bottom: 3rem;
@@ -117,6 +117,10 @@
 
 
 @media (min-width: 1064px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .about-us-card {
         width: 40%;
         padding: 2rem; 
@@ -145,6 +149,7 @@
 }
   
 @media (min-width: 1024px) {
+
     .about-us-card {
       width: calc(50% - 3rem);
     }

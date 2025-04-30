@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Poppins:wght@400;500;700&family=Tektur:wght@400..900&display=swap');
 
+html {
+    overflow-y: scroll;
+}
 
 .highlighttext {
     color: var(--uofa_yellow);
